@@ -1,0 +1,50 @@
+
+
+# Python Vitual Environment
+.venv/
+venv/
+ENV/
+env/ 
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Python bytcode 
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Logs 
+logs/
+*.log
+*.out
+*.err
+*.log.*
+output/run.log
+
+# Input data 
+input/*
+!input/.gitkeep 
+
+# Output data 
+output/*
+!output/.gitkeep
+
+# Temp files 
+*.temp
+*.bak
+*.swp
+
+# OS - specific files
+.DS_Store
+Thumbs.db
+
+
+# IDE/editor files
+.vscode/
+.idea/
